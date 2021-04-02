@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/homebackground">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Your dream holiday with..."
+            android:textColor="@color/white"
+            android:fontFamily="@font/neo_latina"
+            android:layout_marginTop="60sp"
+            android:layout_marginStart="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/fonte"
+                android:text="Stay"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="100sp" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        tools:ignore="ExtraText">
+
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="206dp"
+            android:padding="5sp"
+            android:layout_weight="1"
+            android:src="@drawable/mumbai" />
+
+        <Button
+            android:id="@+id/mumbai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Mumbai  Hotels"
+            android:textColor="@color/white"
+            android:fontFamily="@font/fonte"
+            android:textSize="25sp"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/pune"
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="@font/fonte"
+
+            android:layout_weight="1"
+            android:background="@android:color/transparent"
+            android:text="Pune Hotels"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:layout_width="409dp"
+            android:padding="5sp"
+            android:layout_height="206dp"
+            android:layout_weight="1"
+            android:src="@drawable/ppune" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="214dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="5sp"
+
+            android:src="@drawable/kolhapur" />
+
+        <Button
+            android:id="@+id/kolhapur"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+
+            android:layout_gravity="center"
+            android:fontFamily="@font/fonte"
+
+            android:layout_weight="1"
+            android:text="Kolhapur Hotels"
+            android:textSize="25sp"
+            android:background="@android:color/transparent"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
+</ScrollView>

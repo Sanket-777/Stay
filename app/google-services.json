@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "325654179978",
+    "project_id": "stay-12c5a",
+    "storage_bucket": "stay-12c5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325654179978:android:472d964e1b4ae881b13d73",
+        "android_client_info": {
+          "package_name": "com.example.stay"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "325654179978-4tioblb6q8h3jomk00vd5dsmsacc15vk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbi8ehH0jjuhPdh2XSozk3GirAyfDgosg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "325654179978-4tioblb6q8h3jomk00vd5dsmsacc15vk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/splasgback"
+    >
+
+
+    <ImageView
+        android:id="@+id/splashlogo"
+        android:layout_width="281dp"
+        android:layout_height="161dp"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="120sp"
+        android:layout_marginTop="200sp"
+        android:foregroundGravity="center"
+        android:src="@drawable/hoteeel_dribb"
+        />
+
+    <TextView
+        android:id="@+id/textlogo"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stay"
+        android:textColor="#1A0540"
+        android:fontFamily="@font/destroyarth"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:layout_below="@id/splashlogo"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="An Online Hotel Booking App"
+        android:layout_below="@id/textlogo"
+        android:gravity="center"
+        android:textColor="#9C27B0"
+        android:fontFamily="@font/hpunk"/>
+
+
+</RelativeLayout>

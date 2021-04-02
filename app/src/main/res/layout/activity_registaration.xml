@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background="@drawable/loginback"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100sp"
+        android:fontFamily="@font/destroyarth"
+        android:text="Sign UP"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50sp" />
+    <EditText
+    android:id="@+id/username"
+    android:layout_marginTop="10sp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Enter Username" android:inputType="text"
+    android:textColorHint="@color/black"
+    android:textSize="25sp"
+    android:textColor="@color/black"
+    android:layout_marginLeft="20sp"
+
+
+    />
+    <EditText
+        android:id="@+id/email"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:textColorHint="@color/black"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20sp"
+
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:textColorHint="@color/black"
+        android:textSize="25sp"
+        android:inputType="textPassword"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20sp"
+        />
+    <EditText
+        android:id="@+id/confpassword"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textColorHint="@color/black"
+        android:textSize="25sp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20sp"
+        />
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:backgroundTint="#000"
+        android:textSize="20dp"
+        android:text="Register"
+        android:layout_marginLeft="50sp"
+        android:layout_marginRight="50sp"
+        />
+    <Button
+        android:id="@+id/Sign_in_button"
+        android:layout_marginTop="10sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already Registered?
+                             Sign in Here"
+        android:backgroundTint="#63CEDC"
+        android:layout_marginLeft="50sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:layout_marginRight="50sp"/>
+
+
+
+</LinearLayout>
