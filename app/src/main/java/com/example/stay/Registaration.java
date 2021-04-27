@@ -21,7 +21,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class Registaration extends AppCompatActivity {
     private FirebaseAuth mAuth;
     private static final String TAG = "EmailPassword";
-    String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
+    String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";  //Email Pattern to recognise the email is valid or not
 
 
     EditText username,email,password,confmpassword;
